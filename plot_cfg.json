@@ -1,0 +1,53 @@
+{
+  "exclude_vars": ["now", "delta"],
+  "boolean_vars": {
+    "P": {
+      "var_prefix": "P",
+      "marker": "v",
+      "s": 10,
+      "shift": -1
+    },
+    "H": {
+      "var_prefix": "H",
+      "marker": "h",
+      "s": 10,
+      "shift": 1
+    }
+  },
+  "counter_vars": [
+    {
+      "var_prefix": "R_EMIT_",
+      "linewidth": 2,
+      "linestyle": "sc--",
+      "markersize": 1
+    }
+  ],
+  "colors": [
+    "m",
+    "b",
+    "r",
+    "c",
+    "y",
+    "g",
+    "k"
+  ],
+  "line_styles": [
+    "--",
+    "-.",
+    ":",
+    "-"
+  ],
+  "markers": [
+    "o",
+    "+",
+    "^",
+    "x",
+    "D",
+    "s",
+    "*",
+    ">",
+    "<",
+    "v",
+    "h"
+  ]
+}
