@@ -18,5 +18,5 @@ Simple plotting utility for zot
   ```
 - you are all set, run the plotter
   ```
-  python plot_output.py test
+  python zot_plotter.py test
   ```
